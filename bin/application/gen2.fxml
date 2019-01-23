@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="1423.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.itablecontrol">
+   <children>
+      <TableView fx:id="Table" prefHeight="473.0" prefWidth="1399.0">
+        <columns>
+          <TableColumn fx:id="fid" prefWidth="98.0" text="F_ID" />
+          <TableColumn fx:id="academic" prefWidth="116.0" text="Academic year" />
+            <TableColumn fx:id="Type" prefWidth="108.0" text="Type" />
+            <TableColumn fx:id="author" prefWidth="134.0" text="Co_Author" />
+            <TableColumn fx:id="top" prefWidth="175.0" text="Title of paper" />
+            <TableColumn fx:id="nop" prefWidth="193.0" text="Name of paper" />
+            <TableColumn fx:id="volume" prefWidth="110.0" text="Volume" />
+            <TableColumn fx:id="issue" prefWidth="120.0" text="Issue" />
+            <TableColumn fx:id="issn" prefWidth="133.0" text="Issn" />
+            <TableColumn fx:id="month" prefWidth="127.0" text="Month" />
+            <TableColumn fx:id="year" prefWidth="108.0" text="Year" />
+        </columns>
+      </TableView>
+      <Button layoutX="1290.0" layoutY="507.0" mnemonicParsing="false" onAction="#iback" text="Back" />
+   </children>
+</Pane>

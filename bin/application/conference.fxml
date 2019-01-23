@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.info">
+   <children>
+      <Label layoutX="278.0" layoutY="21.0" text="Conference Details" />
+      <Label layoutX="178.0" layoutY="66.0" text="Faculty id" />
+      <Label layoutX="164.0" layoutY="97.0" text="Academic Year" />
+      <Label layoutX="190.0" layoutY="129.0" text="Type" />
+      <TextField fx:id="cid" layoutX="262.0" layoutY="62.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="cad" layoutX="262.0" layoutY="93.0" prefHeight="25.0" prefWidth="174.0" />
+      <ComboBox fx:id="ctype" layoutX="261.0" layoutY="125.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="162.0" layoutY="162.0" text="Co-Author Name" />
+      <TextField fx:id="coauthor" layoutX="262.0" layoutY="158.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="152.0" layoutY="197.0" text="Title of Conference " />
+      <TextField fx:id="ctoc" layoutX="262.0" layoutY="193.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="cvenue" layoutX="261.0" layoutY="261.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="199.0" layoutY="265.0" text="venue" />
+      <DatePicker fx:id="cdate" layoutX="261.0" layoutY="296.0" />
+      <Label layoutX="201.0" layoutY="300.0" text="Date" />
+      <Label layoutX="107.0" layoutY="332.0" text="proceeding page numbers" />
+      <TextField fx:id="cpgno" layoutX="260.0" layoutY="328.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="383.0" layoutY="400.0" mnemonicParsing="false" onAction="#cinsert" text="insert" />
+      <Button layoutX="33.0" layoutY="38.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="205.0" layoutY="400.0" mnemonicParsing="false" onAction="#gen" text="Generate Report" />
+      <Label layoutX="172.0" layoutY="230.0" text="Title of Paper" />
+      <TextField fx:id="ctop" layoutX="262.0" layoutY="226.0" prefHeight="25.0" prefWidth="174.0" />
+   </children>
+</AnchorPane>

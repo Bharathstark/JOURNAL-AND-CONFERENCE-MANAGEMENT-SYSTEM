@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="776.0" prefWidth="1432.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.repocontrol">
+   <children>
+      <Button layoutX="138.0" layoutY="14.0" mnemonicParsing="false" onAction="#confo" text="Conference Search" />
+      <Button layoutX="686.0" layoutY="634.0" mnemonicParsing="false" onAction="#search" text="search" />
+      <Button layoutX="59.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <TableView fx:id="ctable" layoutX="7.0" layoutY="63.0" prefHeight="216.0" prefWidth="1287.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="145.0">
+         <columns>
+            <TableColumn fx:id="fid" prefWidth="94.0" text="F_id" />
+            <TableColumn fx:id="fad" prefWidth="111.0" text="Academic Year" />
+            <TableColumn fx:id="ftype" prefWidth="97.99996948242188" text="Type" />
+            <TableColumn fx:id="fcoauthor" prefWidth="113.0" text="co_author name" />
+            <TableColumn fx:id="ftoc" prefWidth="199.0" text="Title of Conference" />
+            <TableColumn fx:id="ftop" prefWidth="195.0" text="Title of Paper" />
+            <TableColumn fx:id="fvenue" prefWidth="146.0" text="Venue" />
+            <TableColumn fx:id="fdate" prefWidth="165.0" text="Date" />
+            <TableColumn fx:id="fpgno" prefWidth="165.0" text="Proceeding page numbers" />
+         </columns>
+      </TableView>
+      <TableView fx:id="iTable" layoutX="13.0" layoutY="288.0" prefHeight="201.0" prefWidth="1396.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="fid1" prefWidth="98.0" text="F_ID" />
+            <TableColumn fx:id="academic" prefWidth="116.0" text="Academic year" />
+            <TableColumn fx:id="Type" prefWidth="108.0" text="Type" />
+            <TableColumn fx:id="author" prefWidth="134.0" text="Co_Author" />
+            <TableColumn fx:id="top" prefWidth="175.0" text="Title of paper" />
+            <TableColumn fx:id="nop" prefWidth="193.0" text="Name of paper" />
+            <TableColumn fx:id="volume" prefWidth="110.0" text="Volume" />
+            <TableColumn fx:id="issue" prefWidth="120.0" text="Issue" />
+            <TableColumn fx:id="issn" prefWidth="125.0" text="Issn" />
+            <TableColumn fx:id="month" prefWidth="122.0" text="Month" />
+            <TableColumn fx:id="year" prefWidth="97.0" text="Year" />
+         </columns>
+      </TableView>
+      <Label layoutX="486.0" layoutY="551.0" text="Faculty id" />
+      <TextField fx:id="sid" layoutX="562.0" layoutY="547.0" />
+      <Label layoutX="26.0" layoutY="198.0" />
+      <Label layoutX="473.0" layoutY="583.0" text="Academic Year" />
+      <TextField fx:id="sad" layoutX="562.0" layoutY="579.0" />
+      <Button layoutX="278.0" layoutY="14.0" mnemonicParsing="false" onAction="#journal" text="Journal Search" />
+   </children>
+</AnchorPane>

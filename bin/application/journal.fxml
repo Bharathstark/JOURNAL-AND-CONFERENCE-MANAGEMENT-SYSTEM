@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.jinfo">
+   <children>
+      <Label layoutX="299.0" layoutY="14.0" text="journal details" />
+      <Button layoutX="29.0" layoutY="26.0" mnemonicParsing="false" onAction="#iback" text="Back" />
+      <Button layoutX="-52.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="189.0" layoutY="73.0" text="Faculty id" />
+      <TextField fx:id="iid" layoutX="262.0" layoutY="69.0" prefHeight="25.0" prefWidth="191.0" />
+      <TextField fx:id="iad" layoutX="262.0" layoutY="104.0" prefHeight="25.0" prefWidth="191.0" />
+      <Label layoutX="167.0" layoutY="108.0" text="Accademic year" />
+      <Label layoutX="197.0" layoutY="137.0" text="type" />
+      <ComboBox fx:id="itype" layoutX="262.0" layoutY="133.0" prefHeight="25.0" prefWidth="191.0" />
+      <Label layoutX="195.0" layoutY="169.0" />
+      <Label layoutX="182.0" layoutY="169.0" text="co-Author" />
+      <TextField fx:id="iauthor" layoutX="262.0" layoutY="165.0" prefHeight="25.0" prefWidth="191.0" />
+      <Label layoutX="150.0" layoutY="197.0" text="Title of  the paper" />
+      <TextField fx:id="itop" layoutX="262.0" layoutY="193.0" prefHeight="25.0" prefWidth="191.0" />
+      <Label layoutX="201.0" layoutY="289.0" text="Issue" />
+      <Label layoutX="195.0" layoutY="261.0" text="volume" />
+      <TextField fx:id="ivolume" layoutX="262.0" layoutY="257.0" prefHeight="25.0" prefWidth="191.0" />
+      <TextField fx:id="iissue" layoutX="262.0" layoutY="285.0" prefHeight="25.0" prefWidth="191.0" />
+      <Label layoutX="154.0" layoutY="228.0" text="Name of the Paper" />
+      <Label layoutX="201.0" layoutY="388.0" text="year" />
+      <Label layoutX="196.0" layoutY="354.0" text="Month" />
+      <Label layoutX="207.0" layoutY="321.0" text="ISSN" />
+      <TextField fx:id="iissn" layoutX="262.0" layoutY="317.0" prefHeight="25.0" prefWidth="191.0" />
+      <ComboBox fx:id="imonth" layoutX="262.0" layoutY="350.0" prefHeight="25.0" prefWidth="191.0" />
+      <TextField fx:id="iyear" layoutX="262.0" layoutY="384.0" prefHeight="25.0" prefWidth="191.0" />
+      <Button layoutX="401.0" layoutY="449.0" mnemonicParsing="false" onAction="#iinsert" text="insert" />
+      <Button layoutX="250.0" layoutY="449.0" mnemonicParsing="false" onAction="#ireport" text="Report" />
+      <TextField fx:id="inop" layoutX="262.0" layoutY="224.0" prefHeight="25.0" prefWidth="191.0" />
+   </children>
+</AnchorPane>

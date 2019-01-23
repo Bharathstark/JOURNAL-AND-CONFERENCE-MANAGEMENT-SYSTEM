@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.homecontroller">
+         <children>
+            <Label layoutX="367.0" layoutY="216.0" text="Faculty id" />
+            <TextField fx:id="fid" layoutX="438.0" layoutY="212.0" />
+            <Label layoutX="358.0" layoutY="256.0" text="Faculty name" />
+            <TextField fx:id="fname" layoutX="438.0" layoutY="252.0" />
+            <DatePicker fx:id="fdate" layoutX="438.0" layoutY="295.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="348.0" layoutY="299.0" text="Date of Joining" />
+            <Button fx:id="fadd" layoutX="549.0" layoutY="362.0" mnemonicParsing="false" onAction="#add" text="Add" />
+            <Line endX="100.0" layoutX="329.0" layoutY="256.0" rotate="90.0" startX="-100.0" />
+            <Label layoutX="390.0" layoutY="168.0" text="Enter the details of Faculty" />
+            <Button layoutX="187.0" layoutY="173.0" mnemonicParsing="false" onAction="#confo" text="Conference info" />
+            <Button layoutX="187.0" layoutY="225.0" mnemonicParsing="false" onAction="#jinfo" prefHeight="25.0" prefWidth="101.0" text="Journal info" />
+            <Button layoutX="187.0" layoutY="283.0" mnemonicParsing="false" onAction="#repo" prefHeight="25.0" prefWidth="101.0" text="Reports" />
+         </children>
+    </AnchorPane>
